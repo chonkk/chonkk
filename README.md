@@ -1,7 +1,6 @@
 - 👋 Hi, I’m @chonkk
 - 👀 I’m interested in ... Make the future better than
 - 🌱 I’m currently learning ... springboot, Hibernate, Thyleaf ...
-- 💞️ I’m looking to collaborate on ... 
 - 📫 How to reach me ... chonkk@hotmail.com   [chonkk.blog.me](https://chonkk.blog.me)   [chonkk.github.io/resume](https://chonkk.github.io/resume)
 
 <!---
