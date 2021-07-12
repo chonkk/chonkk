@@ -7,3 +7,6 @@
 chonkk/chonkk is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
 --->
+
+//원격 저장소와 히스토리정보가 맞지 않을땔, fatal: refusing to merge unrelated histories
+git pull origin main --allow-unrelated-histories
