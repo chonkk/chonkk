@@ -8,5 +8,7 @@ chonkk/chonkk is a ✨ special ✨ repository because its `README.md` (this file
 You can click the Preview link to take a look at your changes.
 --->
 
-//원격 저장소와 히스토리정보가 맞지 않을땔, fatal: refusing to merge unrelated histories<br/>
+- 원격 저장소에 repository를 새로 생성할 필요가 있을때<br/>
+gh repo create your_repo_name
+- 원격 저장소와 히스토리정보가 맞지 않을땔, fatal: refusing to merge unrelated histories<br/>
 git pull origin main --allow-unrelated-histories
