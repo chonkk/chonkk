@@ -7,6 +7,8 @@
 chonkk/chonkk is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
 --->
+- 그레이들 명령어를 통한 리프레쉬<br/>
+./gradlew build --refresh-dependencies
 - Maven 프로젝트에서 Gradle 프로젝트로 변환<br/>
  gradle init --type pom
 - 브렌치 관련<br/>
