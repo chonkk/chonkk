@@ -10,11 +10,13 @@ You can click the Preview link to take a look at your changes.
 - git repository <br/>
 echo "# example-repo" >> README.md<br/>
 git init<br/>
+git status<br/>
 git add README.md<br/>
 git commit -m "first commit"<br/>
 git branch -M main<br/>
 git remote add origin git@github.com:outsideris/example-repo.git<br/>
-git push -u origin main
+git push -u origin main<br/>
+git log
 
 - 그레이들 명령어를 통한 리프레쉬<br/>
 ./gradlew build --refresh-dependencies
@@ -29,6 +31,7 @@ git checkout -b utility  --> 브렌치 생성과 체크아웃을 동시에 <br/>
 git branch -v --> 현재 브렌치 확인<br/>
 - 다른 사람의 원격 저장소에서 내 저장소로 복사해올때[마지막에 . 이 있음]<br/>
 git clone https://github.com/xxx/xxx .<br/>
+git remote -v
 git remote remove origin<br/>
 gh repo create xxxx --public<br/>
 git push -u origin master
