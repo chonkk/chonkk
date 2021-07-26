@@ -7,6 +7,15 @@
 chonkk/chonkk is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
 --->
+- git repository <br/>
+echo "# example-repo" >> README.md<br/>
+git init<br/>
+git add README.md<br/>
+git commit -m "first commit"<br/>
+git branch -M main<br/>
+git remote add origin git@github.com:outsideris/example-repo.git<br/>
+git push -u origin main
+
 - 그레이들 명령어를 통한 리프레쉬<br/>
 ./gradlew build --refresh-dependencies
 - Maven 프로젝트에서 Gradle 프로젝트로 변환<br/>
