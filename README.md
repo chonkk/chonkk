@@ -7,6 +7,10 @@
 chonkk/chonkk is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
 --->
+- 메이븐 빌드(테스트 스킵)<br/>
+mvn package -Dmaven.test.skip=true<br/>
+mvn package -DskipTests
+
 - node.js 다운로드<br/>
 https://nodejs.org/ko/ 
 
