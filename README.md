@@ -7,6 +7,23 @@
 chonkk/chonkk is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
 --->
+- node.js 다운로드<br/>
+https://nodejs.org/ko/ 
+
+- npm 버전확인<br/>
+npm -v
+
+- vue-cli3 설치<br/>
+npm i -g @vue/cli <br/>
+vue --version
+
+- vue 프로젝트 생성<br/>
+vue create [프로젝트명] --no-git <br/>
+vue init webpack my-project
+
+- [프로젝트명] 경로로 이동 후 vuejs 실행~~<br/>
+npm run serve
+
 - git repository <br/>
 echo "# example-repo" >> README.md<br/>
 git init<br/>
