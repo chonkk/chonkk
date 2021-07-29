@@ -11,6 +11,8 @@ You can click the Preview link to take a look at your changes.
 npm install -g yarn
 
 - 메이븐 빌드(테스트 스킵)<br/>
+mvn clean install<br/>
+mvn --projects backend spring-boot:run<br/>
 mvn package -Dmaven.test.skip=true<br/>
 mvn package -DskipTests
 
