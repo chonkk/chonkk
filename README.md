@@ -7,6 +7,9 @@
 chonkk/chonkk is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
 --->
+- yarn 설치(NPM)<br/>
+npm install -g yarn
+
 - 메이븐 빌드(테스트 스킵)<br/>
 mvn package -Dmaven.test.skip=true<br/>
 mvn package -DskipTests
