@@ -19,6 +19,25 @@ docker-compose down
 - docker 실행
 docker run [OPTIONS] IMAGE[:TAG|@DIGEST] [COMMAND] [ARG...]<br/>
 docker run -d -p 3306:3306 -e MYSQL_ALLOW_EMPTY_PASSWORD=true --name mysql mysql:5.7
+- ps 명령어는 실행중인 컨테이너 목록<br/>
+docker ps -a<br/>
+- 컨테이너 중지하기 (stop)<br/>
+docker stop [OPTIONS] CONTAINER [CONTAINER...]<br/>
+- 컨테이너 제거하기 (rm)<br/>
+docker rm [OPTIONS] CONTAINER [CONTAINER...]<br/>
+- 이미지 목록 확인하기 (images)<br/>
+docker images [OPTIONS] [REPOSITORY[:TAG]]<br/>
+- 이미지 다운로드하기 (pull)<br/>
+docker pull ubuntu:14.04<br/>
+- 이미지 삭제하기 (rmi)<br/>
+docker rmi [OPTIONS] IMAGE [IMAGE...]<br/>
+- 컨테이너 로그 보기 (logs)<br/>
+docker logs [OPTIONS] CONTAINER<br/>
+docker logs --tail 10 ${WORDPRESS_CONTAINER_ID}<br/>
+docker logs -f ${WORDPRESS_CONTAINER_ID}<br/>
+- 컨테이너 명령어 실행하기 (exec)<br/>
+docker exec [OPTIONS] CONTAINER COMMAND [ARG...]<br/>
+
 
 - yarn 설치(NPM)<br/>
 npm install -g yarn
