@@ -14,7 +14,8 @@ npm install -g yarn
 mvn clean install<br/>
 mvn --projects backend spring-boot:run<br/>
 mvn package -Dmaven.test.skip=true<br/>
-mvn package -DskipTests
+mvn package -DskipTests<br/>
+mvn clean spring-boot:run -Drun.profiles=docker
 
 - node.js 다운로드<br/>
 https://nodejs.org/ko/ 
