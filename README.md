@@ -7,6 +7,19 @@
 chonkk/chonkk is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
 --->
+- Docker Compose 기본 커맨드<br/>
+-- -f 옵션은 여러 개의 설정 파일을 사용할 때
+docker-compose -f docker-compose-local.yml up<br/>
+docker-compose -f docker-compose.yml -f docker-compose-test.yml up<br/>
+-- 보통 -d 옵션을 사용하여 백그라운드에서 컨테이너<br/>
+docker-compose up -d<br/>
+-- 정의되어 있는 모든 서비스 컨테이너를 한 번에 정지시키고 삭제
+docker-compose down
+
+- docker 실행
+docker run [OPTIONS] IMAGE[:TAG|@DIGEST] [COMMAND] [ARG...]<br/>
+docker run -d -p 3306:3306 -e MYSQL_ALLOW_EMPTY_PASSWORD=true --name mysql mysql:5.7
+
 - yarn 설치(NPM)<br/>
 npm install -g yarn
 
