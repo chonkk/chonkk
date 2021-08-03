@@ -90,7 +90,7 @@ git checkout -b utility  --> 브렌치 생성과 체크아웃을 동시에 <br/>
 git branch -v --> 현재 브렌치 확인<br/>
 - 다른 사람의 원격 저장소에서 내 저장소로 복사해올때[마지막에 . 이 있음]<br/>
 git clone https://github.com/xxx/xxx .<br/>
-git remote -v
+git remote -v<br/>
 git remote remove origin<br/>
 gh repo create xxxx --public<br/>
 git push -u origin master
