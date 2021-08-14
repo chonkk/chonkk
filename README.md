@@ -78,7 +78,9 @@ git push -u origin main<br/>
 git log
 
 - 그레이들 명령어를 통한 리프레쉬<br/>
-./gradlew build --refresh-dependencies
+./gradlew build --refresh-dependencies<br/>
+- 테스트 스킵<br/>
+gradle build -x test<br/>
 - Maven 프로젝트에서 Gradle 프로젝트로 변환<br/>
  gradle init --type pom
 - 브렌치 관련<br/>
