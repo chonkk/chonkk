@@ -7,6 +7,9 @@
 chonkk/chonkk is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
 --->
+- Gradle Wrapper 버전 변경<br/>
+./gradlew wrapper --gradle-version 6.8.1
+
 - Docker Compose 기본 커맨드<br/>
 -- -f 옵션은 여러 개의 설정 파일을 사용할 때
 docker-compose -f docker-compose-local.yml up<br/>
